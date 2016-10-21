@@ -5,10 +5,6 @@ function initMap() {
 	  zoom: 1,
 	  center: uluru
 	});
-	var marker = new google.maps.Marker({
-	  position: uluru,
-	  map: map
-	});
 }
 
 $(document).ready(function() {
