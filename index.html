@@ -20,19 +20,32 @@
 
 
 
+<script id="earthquakes" type="text/x-handlebars-template">
+	<div>
+	 	{{#each this}}
+	 		<h3>{{place}}</h3> <br>
+	 		<p> Magnitude: {{mag}} <br></p>
+	 		<p> Time: {{time}} <br></p>
+	 		<p> Latitude/Longitude: {{coordinates}} </p>
 
-<div class="earthquakeinfo">
-  
+	 		<br>
+	 	{{/each}}
+	</div>
+</script>
+
+<div id="earthquakeinfo">
+
 </div>
 
 <div class="map">
   
 </div>
 
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-  <script src='script.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src='moment.js'></script>
+<script src='script.js'></script>
 </body>
 </html>
