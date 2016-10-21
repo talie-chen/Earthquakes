@@ -28,27 +28,25 @@
 <div class="locationheader">
 	<h2>EARTHQUAKE LOCATIONS</h2> 
 
- 		 <h1>UCGS<br>LIVE EARTHQUAKE<br>DATA</h1>
  	 </div>
 
  	 <div id="map"></div>
 </div>
 
 
-
+<div class="eartquakedetails">
 <script id="earthquakes" type="text/x-handlebars-template">
 	<div>
 	 	{{#each this}}
-	 		<h3>{{place}}</h3> <br>
+	 		<h4>{{place}}</h4> <br>
 	 		<p> Magnitude: {{mag}} <br></p>
 	 		<p> Time: {{time}} <br></p>
 	 		<p> Latitude/Longitude: {{coordinates}} </p>
-
 	 		<br>
 	 	{{/each}}
 	</div>
 </script>
-
+</div>
 <div id="earthquakeinfo">
 
 
