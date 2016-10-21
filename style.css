@@ -8,9 +8,7 @@ h1, h2, p {
 	width: 600px;
 	text-align: center;
 
-	text-align: justify;
-
-
+}
 html {
 	margin: 0;
 	padding: 0;
@@ -31,9 +29,6 @@ p {
 	}
 
 	
-h2 { 
-	font: bold normal 1.4em avenir, sans-serif;
-	font-size:12px;
 
 h2 { 
 	font: bold normal 1.4em avenir, sans-serif;
@@ -57,16 +52,6 @@ h2 {
 	padding-bottom: 80px;
 	}
 	
-.top{
-	background-image:url("airplane.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height:800px;
-	position: relative;
-	margin-top: -2%;
-	background-attachment: fixed;
-
-}
 
 .title{
 	color: grey;
