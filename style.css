@@ -70,10 +70,19 @@ h4 {
 	width: 300px;
 }
 
+
+#map {
+	height:400px;
+	width:100%;
+}
+
 .earthquakelocations{
 float:right;
 }
 
+<<<<<<< HEAD
 .earthquakedetails{
 padding-top: 30px;
 }
+=======
+>>>>>>> 8215b6bf46350f1a98c9dcca66a00a1da19a636f
