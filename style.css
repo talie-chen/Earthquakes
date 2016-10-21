@@ -77,7 +77,10 @@ h4 {
 }
 
 .earthquakelocations{
-float:right;
+
+position: absolute;
+right: 100px;
+margin-top: -63px;
 }
 
 
@@ -85,3 +88,10 @@ float:right;
 padding-top: 100px;
 }
 
+hr.style1{
+	width: 340px;
+	position: aboslute;
+	margin-left: 70px;
+	border-top: 1px dotted
+	color: black;
+}
