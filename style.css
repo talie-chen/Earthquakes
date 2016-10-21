@@ -45,8 +45,8 @@ h2 {
 	
 h4 {
 	font: bold normal 1.4em avenir, sans-serif;
-	font-size:12px;
-	padding-top: 20px;
+	font-size:13px;
+	padding-top: 10px;
 }
 	
 .top{
@@ -80,9 +80,7 @@ h4 {
 float:right;
 }
 
-<<<<<<< HEAD
 .earthquakedetails{
-padding-top: 30px;
+padding-top: 100px;
 }
-=======
->>>>>>> 8215b6bf46350f1a98c9dcca66a00a1da19a636f
+
