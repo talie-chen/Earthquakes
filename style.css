@@ -70,16 +70,6 @@ h4 {
 	width: 300px;
 }
 
-.infoheader{
-float: left;
-
-}
-
-.locationheader{
-float: right;
-
-}
-
-.earthquakedetails{
-padding-top: 15;
+.earthquakelocations{
+float:right;
 }
