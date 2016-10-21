@@ -80,7 +80,7 @@ h4 {
 
 position: absolute;
 right: 100px;
-margin-top: -37px;
+margin-top: -63px;
 }
 
 
@@ -88,3 +88,10 @@ margin-top: -37px;
 padding-top: 100px;
 }
 
+hr.style1{
+	width: 340px;
+	position: aboslute;
+	margin-left: 70px;
+	border-top: 1px dotted
+	color: black;
+}
