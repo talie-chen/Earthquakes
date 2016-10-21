@@ -1,7 +1,8 @@
+var map; 
 function initMap() {
 	var uluru = {lat: -25.363, lng: 131.044};
-	var map = new google.maps.Map(document.getElementById('map'), {
-	  zoom: 4,
+	map = new google.maps.Map(document.getElementById('map'), {
+	  zoom: 1,
 	  center: uluru
 	});
 	var marker = new google.maps.Marker({
@@ -53,5 +54,15 @@ $(document).ready(function() {
 
 	// Insert the HTML code into the page
 	$(document.body).append(html);
+
+	// Append marker
+	earthquake_list.forEach(function(obj){
+		var coords = obj.coordinates;
+		var latLng = new google.maps.LatLng(coords[1],coords[0]);
+        var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+        });
+	});
 	
 });
