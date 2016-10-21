@@ -7,10 +7,21 @@ h1, h2, p {
 	margin-right:auto;
 	width: 600px;
 	text-align: center;
-}
+
+	text-align: justify;
+
 
 html {
 	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	font-family: avenir, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: #fff url(blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
 	padding: 0;
 	}
 
@@ -18,10 +29,15 @@ p {
 	margin-top: 0; 
 	text-align: justify;
 	}
+
 	
 h2 { 
 	font: bold normal 1.4em avenir, sans-serif;
 	font-size:12px;
+
+h2 { 
+	font: bold normal 1.4em avenir, sans-serif;
+	font-size:18px;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
@@ -37,6 +53,15 @@ h2 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:600px;
+	padding-top: 15%;
+	padding-bottom: 80px;
+	}
+	
+.top{
+	background-image:url("airplane.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:800px;
 	position: relative;
 	margin-top: -2%;
 	background-attachment: fixed;
@@ -54,5 +79,3 @@ h2 {
 	width: 300px;
 }
 
-
-#1{background-color:#ffd621; width:100px; color: black;
