@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 
 	$.ajax({
-		url: "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
+		url: "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
 		type: "get",
 		async: false,
 		success: function(data){
