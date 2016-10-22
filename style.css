@@ -39,7 +39,7 @@ h2 {
 	letter-spacing:6px;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	background-color: #ffd621;
+
 	width: 330px;
 	}
 	
@@ -47,15 +47,20 @@ h4 {
 	font: bold normal 1.4em avenir, sans-serif;
 	font-size:13px;
 	padding-top: 10px;
+	padding-bottom:-5px;
+	line-height:0;
 }
 	
 .top{
-	background-color: #ffd621;
+	background-image:url("header.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height:600px;
-	padding-top: 15%;
-	padding-bottom: 80px;
+	height:880px;
+	position: relative;
+	margin-top: -100px;
+	background-attachment: fixed;
+	background-color: black;
+	margin-right: -15px;
 	}
 	
 
@@ -65,7 +70,7 @@ h4 {
 	letter-spacing: 10px;
 	text-align: center;
 	position: absolute;
-	margin-top: 0px;
+	margin-top: 380px;
 	margin-left: 40%;
 	width: 300px;
 }
@@ -74,6 +79,7 @@ h4 {
 #map {
 	height:800px;
 	width:100%;
+	margin-left: 670px;
 }
 
 .earthquakelocations{
@@ -81,18 +87,48 @@ h4 {
 position: absolute;
 right: 100px;
 margin-top: -63px;
-width:100%;
+width:110%;
+height: 100%;
+background-color: white;
+}
+
+.earthquakelocationstext{
+position: absolute;
+right: 15px;
+margin-top: -42px;
+}
+
+.earthquakeinfo{
+position: absolute;
+right: 100px;
+margin-top: -303px;
 }
 
 
 .earthquakedetails{
+position: absolute
 padding-top: 100px;
+margin-top: -70px;
 }
 
 hr.style1{
 	width: 340px;
 	position: aboslute;
 	margin-left: 70px;
-	border-top: 1px dotted
+
 	color: black;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#FFFF00;
+  height: 1px;
+}
+
+.footer{
+ height: 200px;
+ background-color:black;
 }
